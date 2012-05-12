@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="LibroSoftBD" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entidades.Sala</class>
+    <class>Entidades.Autor</class>
+    <class>Entidades.Dependencia</class>
+    <class>Entidades.Cajon</class>
+    <class>Entidades.Ejemplar</class>
+    <class>Entidades.PalabrasClave</class>
+    <class>Entidades.PagoMulta</class>
+    <class>Entidades.Estante</class>
+    <class>Entidades.AreaDeConocimiento</class>
+    <class>Entidades.LibroDigital</class>
+    <class>Entidades.OrdenDeEntrega</class>
+    <class>Entidades.Empleado</class>
+    <class>Entidades.SubareaDeConocimiento</class>
+    <class>Entidades.Pasillo</class>
+    <class>Entidades.Ubicacion</class>
+    <class>Entidades.TipoMulta</class>
+    <class>Entidades.Usuario</class>
+    <class>Entidades.Perfil</class>
+    <class>Entidades.OrdenDePrestamo</class>
+    <class>Entidades.Carrera</class>
+    <class>Entidades.Multa</class>
+    <class>Entidades.Libro</class>
+    <class>Entidades.Nacionalidad</class>
+    <class>Entidades.Profesor</class>
+    <class>Entidades.Idioma</class>
+    <class>Entidades.Devolucion</class>
+    <class>Entidades.Estudiante</class>
+    <class>Entidades.SolicitudDeLibro</class>
+    <class>Entidades.Editorial</class>
+    <class>Entidades.Descarga</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mayraata"/>
+      <property name="javax.persistence.jdbc.password" value="jhonde"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

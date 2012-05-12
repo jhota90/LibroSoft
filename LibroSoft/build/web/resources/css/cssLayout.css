@@ -1,0 +1,80 @@
+
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+   
+    
+    
+}
+#top_rigth {
+    
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    float: right;       
+    
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    clear: both;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#center{
+    position: relative;
+    
+}
+
+#center_left{
+    float: left;
+    background-color: #ece3a5;
+        /* Mozilla: */
+    /*background: -moz-linear-gradient(top, #00FF00, #000000);*/
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom, from(#ece3a5), to(#E6E6E6));
+    width: 150px;
+    padding: 5px;
+}
+
+#center_center {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+    text-align: center ;
+   
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
